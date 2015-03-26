@@ -3,7 +3,7 @@
 	<head>
 		
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
-
+		<title>Chiropractor Hinsdale - Fisher Chiropractic & Integrated Health</title>
 		<script src="js/jquery-1.11.2.js"></script>
 		<script>
 		    $(document).on("mobileinit", function(evt) {
@@ -75,24 +75,20 @@
 		      	});
 
 		    });
-		   
-			
-			
-    	</script>
+	 	</script>
     	
 	</head>
 	<body>
 		
 		<?php 
 			include 'settings.php';
-			
-			
 		?>
+
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1><img src="img/logo.png" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1>Mobile Site | <a href="http://www.fcihealth.com/" rel="external">Classic Site</a></h1>
+			<h1>Powered by <a href="http://mobilegrows.com/">MobileGrows</a> | <a href="http://fcihealth.com/" rel="external">Desktop Site</a></h1>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
